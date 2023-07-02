@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <title>Accutrol Archiver</title>
+</head>
+<body style = "text-align: center; align-content: center;">
+    <div style = "margin-top: 20px; min-width: 425px; max-width: 450px">
+        <!-- changed max width from 525 to 525 -->
+
+        <img src="https://www.accutrolllc.com/wp-content/uploads/2021/02/AccutrolLogo-color-RGB.jpg" alt="accutrol" style="border-radius: 5px" width="275" height="95">
+
+        <header>
+
+                <span>
+                    <h3 id="currentDate" class="completed" style = "margin-top:5px;margin-bottom: 0px">Archiver completed: $currentdate</h3>  
+                    <p style="margin: 0px;font-style: italic;">Archiver run time: $runtime milliseconds</p>
+                    <p style="margin: 0px;font-style: italic;">Error Count: $($errors.count)</p>
+                </span>  
+        </header>
+
+        <div style="margin:0px">
+            <h4 class="errors" style="margin:0px;margin-top: 20px;border-bottom: 2px dotted black">Errors:</h4>
+            <p style="margin:0px;margin-top:2px">$errors</p>
+        </div>
+
+        <div style="margin:0px">
+            <h4 class="errors" style="margin:0px;margin-top: 20px;border-bottom: 2px dotted black">Full Orders Archived:</h4>
+
+            <p style="margin:0px;margin-top:2px; text-align: start;">$fullorder</p>
+
+            <h4 class="errors" style="margin:0px;margin-top: 20px;border-bottom: 2px dotted black">Partial Orders Archived:</h4>
+
+            <p style="margin:0px;margin-top:2px">$partialorder</p>
+        </div>
+
+        <footer>
+            <div>
+                <h3 class="vectro" style = "margin: 0px; margin-top:20px">Vectro Networks</h2>
+                <h4 style = "margin: 0px">IT Professionals</h3>
+                <h5 style = "margin: 0px" class="contact">support@vectro.it</h5>
+                <h5 style = "margin: 0px" class="contact">(203) 546-8613</h5>
+                <h5 style = "margin: 0px; margin-top: 20px;" class="credit">For support with this archiver utility, please contact Vectro Networks.</h5>
+                <h6 style = "margin: 0px; font-style: italic;" class="credit">Archiver built by Brennan Franco, CISSP</h6
+                    >
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
