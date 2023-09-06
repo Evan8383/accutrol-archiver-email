@@ -23,6 +23,9 @@
                                                             <tr>
                                                                 <td align="center">
                                                                     <img style="margin-top: 5px" src="https://www.accutrolllc.com/wp-content/uploads/2022/12/SoftwareInstallerIconFINAL.png" alt="accutrol" width="125" height="95">
+                                                                    <p id="currentDate" class="completed" style = "color: #1C2544; margin-top:5px; margin-bottom: 0px; font-size: 1.15em; font-weight: bolder;">Archiver completed: $currentdate</p>  
+                                                                    <p style="color: #1C2544; margin: 0px; margin-top: 3px; font-size: 1em; font-weight: bold;">Archiver run time: $runtime milliseconds</p>
+                                                                    <p style="color: #1C2544; margin: 0px; margin-top: 3px; margin-bottom: 5px; font-size: .9em; font-weight: bold;">Results based on Investory Sales Order dated: $Date</p>
                                                                 </td>
                                                             </tr>
                                                         </tbody>
@@ -30,30 +33,26 @@
                                                     <table width=100% border="0" cellpadding="0" cellspacing="0">
                                                         <tbody>
                                                             <tr>
-                                                                <td style="color: white; border-radius: 5px;" bgcolor="#1C2544">
-                                                                    <h3 id="currentDate" class="completed" style = "margin-top:5px;margin-bottom: 0px;margin-left: 5px">Archiver completed: $currentdate</h3>  
-                                                                    <p style="margin: 0px;font-style: italic;margin-left: 5px">Archiver run time: $runtime milliseconds</p>
-                                                                    <!-- <p style="margin: 0px;font-style: italic;margin-left: 5px">Error Count: $($errors.count)</p> -->
+                                                                <td align="center" style="color: white; border-radius: 5px;" bgcolor="#1C2544">
+                                                                    <h4 class="errors" style="margin:0px;margin-top: 8px;border-bottom: 2px dotted white;">Errors:</h4>
+                                                                    <p style="margin:0px;margin-top:px">$errors</p>
 
-                                                                    <h4 class="errors" style="margin:0px;margin-top: 20px;border-bottom: 2px dotted white;margin-left: 5px">Errors:</h4>
-                                                                    <p style="margin:0px;margin-top:2px;margin-left: 5px">$errors</p>
+                                                                    <h4 class="errors" style="margin:0px;margin-top: 20px;border-bottom: 2px dotted white;">Full Orders Archived:</h4>
+                                                                    <p style="margin:0px;margin-top:2px">$fullorder</p>
 
-                                                                    <h4 class="errors" style="margin:0px;margin-top: 20px;border-bottom: 2px dotted white;margin-left: 5px">Full Orders Archived:</h4>
-                                                                    <p style="margin:0px;margin-top:2px; text-align: start;margin-left: 5px">$fullorder</p>
-
-                                                                    <h4 class="errors" style="margin:0px;margin-top: 20px;border-bottom: 2px dotted white;margin-left: 5px">Partial Orders Archived:</h4>
-                                                                    <p style="margin:0px;margin-top:2px; margin-bottom:5px;margin-left: 5px">$partialorder</p>
+                                                                    <h4 class="errors" style="margin:0px;margin-top: 20px;border-bottom: 2px dotted white;">Partial Orders Archived:</h4>
+                                                                    <p style="margin:0px;margin-top:2px; margin-bottom:8px;">$partialorder</p>
                                                                     </table>
                                                                     <table width=100% border="0" cellpadding="0" cellspacing="0" bgcolor="#9EA9C8" style="border-radius: 5px;margin-top:3px">
                                                                         <tbody>
                                                                             <tr>
-                                                                                <td align="center" style="color: white">
+                                                                                <td align="center" style="color: #1C2544">
                                                                                     <h3 class="vectro" style = "margin: 0px; margin-top:10px">Vectro Networks</h2>
                                                                                     <h4 style = "margin: 0px">IT Professionals</h3>
                                                                                     <h5 style = "margin: 0px" class="contact">support@vectro.it</h5>
                                                                                     <h5 style = "margin: 0px" class="contact">(203) 546-8613</h5>
                                                                                     <h5 style = "margin: 0px; margin-top: 20px;" class="credit">For support with this archiver utility, please contact Vectro Networks.</h5>
-                                                                                    <h6 style = "margin: 0px; font-style: italic;margin-bottom:10px" class="credit">Archiver built by Brennan Franco, CISSP</h6>
+                                                                                    <h5 style = "margin: 0px; font-style: italic;margin-bottom:10px" class="credit">Archiver built by Brennan Franco, CISSP</h6>
                                                                                 </td>
                                                                             </tr>
                                                                         </tbody>
